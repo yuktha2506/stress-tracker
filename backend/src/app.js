@@ -10,7 +10,6 @@ import aiRoutes from './routes/ai.routes.js';
 import notificationRoutes from './routes/notification.routes.js';
 import { env } from './config/env.js';
 import { errorHandler, notFound } from './middleware/error.middleware.js';
-
 const app = express();
 
 app.use(helmet());
