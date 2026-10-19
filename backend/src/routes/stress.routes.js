@@ -5,7 +5,6 @@ import { authenticate } from '../middleware/auth.middleware.js';
 import { validate } from '../middleware/validate.middleware.js';
 
 const router = Router();
-
 router.get('/me', authenticate, mine);
 router.post(
   '/',
