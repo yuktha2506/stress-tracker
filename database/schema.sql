@@ -1,6 +1,7 @@
 CREATE DATABASE IF NOT EXISTS stress_tracker;
 USE stress_tracker;
 
+
 CREATE TABLE IF NOT EXISTS employees (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(120) NOT NULL,
