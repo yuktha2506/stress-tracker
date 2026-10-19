@@ -6,5 +6,4 @@ const router = Router();
 
 router.get('/me', authenticate, me);
 router.get('/', authenticate, authorize('admin'), index);
-
 export default router;
